@@ -7,5 +7,7 @@ This repo can act as you quick reference markdown guide.
 Syntax of markdown from below.
 ---
 
-- ## Headings
-awdawdawdawd
+- ## General Text
+
+    - ### Headings
+        Headings in markdown are level based, think of Lower level headings are sub-topics of the Higher level headings.
