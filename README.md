@@ -90,6 +90,7 @@ There is an Line break above
 ### Horizontal
 The syntax for Horizontal line is 3 hyphens or underscores or asterisks.
 - how it looks:
+
 below is Horizontal
 
 ---
