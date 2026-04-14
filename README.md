@@ -156,17 +156,17 @@ how it looks
 Similar to Lists, for checklist we use [ ] for unchecked and [x] for checked.
 
 how it looks
-- [] list 1
+- [ ] list 1
 - [x] list 2
     - [x] list 2.1
-    - [] list 2.2
+    - [ ] list 2.2
         - [x] list 2.2.1
 
 - Syntax for Checked list
 ```markdown
-- [] list 1
+- [ ] list 1
 - [x] list 2
     - [x] list 2.1
-    - [] list 2.2
+    - [ ] list 2.2
         - [x] list 2.2.1
 ```
