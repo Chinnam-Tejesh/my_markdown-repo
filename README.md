@@ -72,6 +72,7 @@ The best method for achieving an Line break in markdown is using HTML syntax br 
 below is Line break
 <br>
 above is Line break
+
 - Syntax of Line break
 ```markdown
 There is an Line break below
@@ -80,6 +81,7 @@ There is an Line break below
 
 There is an Line break above
 ```
+
 - Note: it is best to leave a line above and below, for GitHub's markdown render engine to avoid miss-renders
 
 ### Horizontal
