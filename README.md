@@ -66,27 +66,41 @@ The line below is Text Strike
 ~~This line is Text Strike~~
 ```
 
+### Block Quotes
+Block Quotes is achived using grater-than symbol (for first level) and 2 grater-thans (for second level).
+- eg: the following is a Block Quote
 
+> This is first level Block Quote.
+>> this is second level Block Quote.
+
+- Syntax for Block Quotes
+```markdown
+> This is first level Block Quote.
+>> this is second level Block Quote.
+```
+
+---
+---
 
 ## Line break and Horizontal
 
-### Line break
-The best method for achieving an Line break in markdown is using HTML syntax br inside < >
+### Line Break
+The best method for achieving an Line Break in markdown is using HTML syntax br inside < >
 - how it looks:
 
-below is Line break
+below is Line Break
 
 <br>
 
-above is Line break
+above is Line Break
 
-- Syntax of Line break
+- Syntax of Line Break
 ```markdown
-There is an Line break below
+There is an Line Break below
 
 <br>
 
-There is an Line break above
+There is an Line Break above
 ```
 - Note: it is best to leave a line above and below, for GitHub's markdown render engine to avoid miss-renders
 
@@ -111,7 +125,8 @@ There is an horizontal above
 - Note: level 1 Headings in GitHub automatically render an thin horizontal, the syntatically induced render is thick in comparision.
 - Note: cant generate an Horizontal inside points / list.
 
-
+---
+---
 
 ## List , Numarical list and Check list
 
@@ -134,7 +149,7 @@ how it looks:
         - list 2.2.1
 ```
 
-### Numarical list
+### Numarical List
 Similar to lists but we use number followed by fullstop and whitespace.
 
 how it looks
@@ -144,7 +159,7 @@ how it looks
     2. list 2.2
         1. list 2.2.1
 
-- Sunctax for Numerical list
+- Sunctax for Numerical List
 ```markdown
 1. list 1
 2. list 2
@@ -153,7 +168,7 @@ how it looks
         1. list 2.2.1
 ```
 
-### Check list
+### Check List
 Similar to Lists, for checklist we use [ ] for unchecked and [x] for checked.
 
 how it looks
@@ -163,7 +178,7 @@ how it looks
     - [ ] list 2.2
         - [x] list 2.2.1
 
-- Syntax for Checked list
+- Syntax for Checked List
 ```markdown
 - [ ] list 1
 - [x] list 2
@@ -171,3 +186,8 @@ how it looks
     - [ ] list 2.2
         - [x] list 2.2.1
 ```
+
+---
+---
+
+## 
