@@ -1,5 +1,8 @@
 # tej-my_markdown-repo
 Hello to Anyone other than me, In this repo i am documenting markdown syntax to the best of my knowledge.    
+
+---
+
 This repo can act as you quick reference markdown guide.
 
 <br>
@@ -89,7 +92,9 @@ The syntax for Horizontal line is 3 hyphens or underscores or asterisks.
 - how it looks:
 
 below is Horizontal
+
 ---
+
 above is Horizontal
 
 - Syntax of Horizontal
