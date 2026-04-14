@@ -202,7 +202,7 @@ this is text `this is in-line code` this is text.
 ```
 
 ### Multi-line Code
-Multi line code in markdown is achived using 3 backticks before and after the code.
+Multi-line code (also known as Fenced code block) in markdown is achived using 3 backticks before and after the code.
 - eg:
 ```
 this is a multi line code block
@@ -217,6 +217,7 @@ this is a multi line code block
 ```
 
 - Note: in Multi-line code we can use syntax highlighting by typing programming language name after the first/starting 3 backticks.
+- Note: the \ here is for escaping purpose
 - syntax highliting of markdown eg:
 
 ```
@@ -225,3 +226,5 @@ this is a multi line code block
 ## this is a multi line code block
 \```
 ```
+
+## Links and Embeddeds
