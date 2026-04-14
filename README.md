@@ -73,7 +73,9 @@ The best method for achieving an line break in markdown is using HTML syntax br 
 - Syntax of line break
 ```markdown
 There is an Line break below
+
 <br>
+
 There is an Line break above
 ```
 - Note: it is best to leave a line above and below, for GitHub's markdown render engine to avoid miss-renders
