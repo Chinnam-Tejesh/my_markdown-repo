@@ -67,10 +67,12 @@ The line below is Text Strike
 ## Line break and Horizontal
 
 ### Line break
-The best method for achieving an line break in markdown is using HTML syntax br inside < >
+The best method for achieving an Line break in markdown is using HTML syntax br inside < >
 - how it looks:
-    <br>
-- Syntax of line break
+below is Line break
+<br>
+above is Line break
+- Syntax of Line break
 ```markdown
 There is an Line break below
 
