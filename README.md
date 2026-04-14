@@ -50,4 +50,4 @@ Syntax of markdown from below.
         The line below is Text Monospace
         `This line is Text Monospace`
         ```
-    - ### Text 
+    - ### Text Strike
