@@ -307,41 +307,24 @@ Tables in GitHub are known as Pipe Tables, and convienent with single text line 
     - Dashes (-) used to separate block in columns.
     - Colons (:) used to align text accross blocks of a column.
 
-- Examples of table: 2 renderings are avilable.
-- 1 - with End boarder
+- Examples of table:
 
 | column 1 | column 2 | column3 |
-| ---- | ---- | ---- |
+|   ----   |   ----   |   ----  |
 | block 1.1 | block 1.2 | block 1.3|
 | block 2.1 | block 2.2 | block 2.3|
 | block 3.1 | block 3.2| block 3.3|
-
-- 2 - without End boarder
-
-column 1 | column 2 | column3 
----- | ---- | ----
-block 1.1 | block 1.2 | block 1.3
-block 2.1 | block 2.2 | block 2.3
-block 3.1 | block 3.2| block 3.3
 
 - Syntax for Table is as follows
 ```markdown
 with End boarder
 
 | column 1 | column 2 | column3 |
-| ---- | ---- | ---- |
+|   ----   |   ----   |   ----  |
 | block 1.1 | block 1.2 | block 1.3|
 | block 2.1 | block 2.2 | block 2.3|
 | block 3.1 | block 3.2| block 3.3|
 
-
-without End boarder
-
-column 1 | column 2 | column3 
----- | ---- | ----
-block 1.1 | block 1.2 | block 1.3
-block 2.1 | block 2.2 | block 2.3
-block 3.1 | block 3.2| block 3.3
 ```
 
 ### Text Alignment inside blocks
@@ -352,24 +335,24 @@ For left alignment we use colon followed by 3 or more dashes. example:
 
 | column 1 | column 2 | column3 |
 | :---- | :---- | :---- |
-| block 1.1 | block 1.2 | block 1.3|
-| block 2.1 | block 2.2 | block 2.3|
+| block one | block two | block three |
+| block four | block five | block six |
 
 - Center Alignment 
 For center alignment we use colons at either ends of dashes. example:
 
 | column 1 | column 2 | column3 |
 | :----: | :----: | :----: |
-| block 1.1 | block 1.2 | block 1.3|
-| block 2.1 | block 2.2 | block 2.3|
+| block one | block two | block three |
+| block four | block five | block six |
 
 - Right Alignment 
 For right alignment we use colon at the end of dashes. example:
 
 | column 1 | column 2 | column3 |
 | ----: | ----: | ----: |
-| block 1.1 | block 1.2 | block 1.3|
-| block 2.1 | block 2.2 | block 2.3|
+| block one | block two | block three |
+| block four | block five | block six |
 
 - Syntax for Text Alignments 
 ```markdown
@@ -377,22 +360,22 @@ Left Alignment
 
 | column 1 | column 2 | column3 |
 | :---- | :---- | :---- |
-| block 1.1 | block 1.2 | block 1.3|
-| block 2.1 | block 2.2 | block 2.3|
+| block one | block two | block three |
+| block four | block five | block six |
 
 
 Center Alignment
 
 | column 1 | column 2 | column3 |
 | :----: | :----: | :----: |
-| block 1.1 | block 1.2 | block 1.3|
-| block 2.1 | block 2.2 | block 2.3|
+| block one | block two | block three |
+| block four | block five | block six |
 
 
 Right Alignment
 | column 1 | column 2 | column3 |
 | ----: | ----: | ----: |
-| block 1.1 | block 1.2 | block 1.3|
-| block 2.1 | block 2.2 | block 2.3|
+| block one | block two | block three |
+| block four | block five | block six |
 ```
 
