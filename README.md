@@ -294,6 +294,105 @@ video from URL:
 below is video from Youtube
 
 [![Alt Text](https://img.youtube.com/vi/4ZhITWHsaro/0.jpg)](https://www.youtube.com/watch?v=4ZhITWHsaro)
+
+In the above 4ZhITWHsaro is the Video ID (you can get it from value v= in youtube video URL)
 ```
 
 ## Table
+Tables in GitHub are known as Pipe Tables, and convienent with single text line per block.
+
+### Table Syntax
+- The Table Syntax uses the following:
+    - Pipes (|) used to separate blocks in rows.
+    - Dashes (-) used to separate block in columns.
+    - Colons (:) used to align text accross blocks of a column.
+
+- Examples of table: 2 renderings are avilable.
+- 1 - with End boarder
+
+| column 1 | column 2 | column3 |
+| ---- | ---- | ---- |
+| block 1.1 | block 1.2 | block 1.3|
+| block 2.1 | block 2.2 | block 2.3|
+| block 3.1 | block 3.2| block 3.3|
+
+- 2 - without End boarder
+
+column 1 | column 2 | column3 
+---- | ---- | ----
+block 1.1 | block 1.2 | block 1.3
+block 2.1 | block 2.2 | block 2.3
+block 3.1 | block 3.2| block 3.3
+
+- Syntax for Table is as follows
+```markdown
+with End boarder
+
+| column 1 | column 2 | column3 |
+| ---- | ---- | ---- |
+| block 1.1 | block 1.2 | block 1.3|
+| block 2.1 | block 2.2 | block 2.3|
+| block 3.1 | block 3.2| block 3.3|
+
+
+without End boarder
+
+column 1 | column 2 | column3 
+---- | ---- | ----
+block 1.1 | block 1.2 | block 1.3
+block 2.1 | block 2.2 | block 2.3
+block 3.1 | block 3.2| block 3.3
+```
+
+### Text Alignment inside blocks
+The Text Alignment in markdown tables is done per column.
+
+- Left Alignment
+For left alignment we use colon followed by 3 or more dashes. example:
+
+| column 1 | column 2 | column3 |
+| :---- | :---- | :---- |
+| block 1.1 | block 1.2 | block 1.3|
+| block 2.1 | block 2.2 | block 2.3|
+
+- Center Alignment 
+For center alignment we use colons at either ends of dashes. example:
+
+| column 1 | column 2 | column3 |
+| :----: | :----: | :----: |
+| block 1.1 | block 1.2 | block 1.3|
+| block 2.1 | block 2.2 | block 2.3|
+
+- Right Alignment 
+For right alignment we use colon at the end of dashes. example:
+
+| column 1 | column 2 | column3 |
+| ----: | ----: | ----: |
+| block 1.1 | block 1.2 | block 1.3|
+| block 2.1 | block 2.2 | block 2.3|
+
+- Syntax for Text Alignments 
+```markdown
+Left Alignment
+
+| column 1 | column 2 | column3 |
+| :---- | :---- | :---- |
+| block 1.1 | block 1.2 | block 1.3|
+| block 2.1 | block 2.2 | block 2.3|
+
+
+Center Alignment
+
+| column 1 | column 2 | column3 |
+| :----: | :----: | :----: |
+| block 1.1 | block 1.2 | block 1.3|
+| block 2.1 | block 2.2 | block 2.3|
+
+
+Right Alignment
+| column 1 | column 2 | column3 |
+| ----: | ----: | ----: |
+| block 1.1 | block 1.2 | block 1.3|
+| block 2.1 | block 2.2 | block 2.3|
+```
+
