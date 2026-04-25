@@ -249,7 +249,7 @@ Folder navigation [click-here](/resources/)
 ```
 
 ### Image Embedded
-Markdown supports Image embedded-ing either avilable in the repo or using URL.
+Markdown supports Image embedded-ing either avilable in the repo or using URL. Syntax is: ! followerd by [ text ] followed by ( URL or Path )
 - eg:
     - image inside resources folder: ![cherry blossom](/resources/image1.jpg)
     - image from URL: ![markdown logo](https://upload.wikimedia.org/wikipedia/commons/4/41/1280px_Markdown_with_White_Background.png)
@@ -261,13 +261,8 @@ image from URL: ![markdown logo](https://upload.wikimedia.org/wikipedia/commons/
 ```
 
 ### Video Embedded
-Markdown supports Video embedded-ing (GitHub's feature) either avilable in the repo or using URL.
+Markdown supports Video embedded-ing (GitHub's feature) either avilable in the repo (user assests).
 - eg:
-- video from URL:
-below is video from Youtube
-
-[![Alt Text](https://img.youtube.com/vi/4ZhITWHsaro/0.jpg)](https://www.youtube.com/watch?v=4ZhITWHsaro)
-
 - video directly uploaded in GitHub editor
 
 https://github.com/user-attachments/assets/4e809ad9-ec21-4f9a-9607-628c54884e1f
@@ -276,11 +271,6 @@ the above is the video, uploaded as GitHub user asset.
 
 - Syntax of Video Embedded
 ```markdown
-video from URL:
-below is video from Youtube
-
-[![Alt Text](https://img.youtube.com/vi/4ZhITWHsaro/0.jpg)](https://www.youtube.com/watch?v=4ZhITWHsaro)
-
 video directly uploaded in GitHub editor
 
 https://github.com/user-attachments/assets/4e809ad9-ec21-4f9a-9607-628c54884e1f
@@ -288,4 +278,22 @@ https://github.com/user-attachments/assets/4e809ad9-ec21-4f9a-9607-628c54884e1f
 the above is the video, uploaded as GitHub user asset.
 ```
 
-### Table
+### Embedded as Link
+Markdown allows an Image as link, the Syntax is: [ ![ text ] followerd by ( URL or Path) ] followed by ( URL, Path or Heading )  
+That is Image-embedded in text section of Hyper Link
+
+- eg:
+- video from URL:
+below is video from Youtube (direct link)
+
+[![Alt Text](https://img.youtube.com/vi/4ZhITWHsaro/0.jpg)](https://www.youtube.com/watch?v=4ZhITWHsaro)
+
+- Syntax of Embedded as Link
+```markdown
+video from URL:
+below is video from Youtube
+
+[![Alt Text](https://img.youtube.com/vi/4ZhITWHsaro/0.jpg)](https://www.youtube.com/watch?v=4ZhITWHsaro)
+```
+
+## Table
