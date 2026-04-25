@@ -4,7 +4,13 @@ This repo can act as you quick reference markdown guide.
 
 <br>
 
-Syntax of markdown from below.
+**Click and Navigate :** 
+- [click here](#general-text) - General Text.
+- [click here](#line-break-and-horizontal) - Line break and Horizontal.
+- [click here](#list--numarical-list-and-check-list) - List , Numarical list and Check list.
+- [click here](#code) - Code.
+- [click here](#links-and-embeddeds) - Links and Embeddeds.
+- [click here](#tables) - Tables.
 
 ---
 ---
@@ -298,7 +304,7 @@ below is video from Youtube
 In the above 4ZhITWHsaro is the Video ID (you can get it from value v= in youtube video URL)
 ```
 
-## Table
+## Tables
 Tables in GitHub are known as Pipe Tables, and convienent with single text line per block.
 
 ### Table Syntax
