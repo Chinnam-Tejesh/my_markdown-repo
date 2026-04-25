@@ -263,5 +263,16 @@ image from URL: ![markdown logo](https://upload.wikimedia.org/wikipedia/commons/
 ### Video Embedded
 Markdown supports Video embedded-ing (GitHub's feature) either avilable in the repo or using URL.
 - eg:
-    - video inside resources folder https://github.com/user-attachments/assets/4e809ad9-ec21-4f9a-9607-628c54884e1f
-    - video from URL: ![youtube URL]()
+- video from URL: ![youtube URL]()
+
+- video directly uploaded in GitHub editor
+below is the video
+
+https://github.com/user-attachments/assets/4e809ad9-ec21-4f9a-9607-628c54884e1f
+
+the above is the video, uploaded as GitHub user asset.
+
+- Syntax of Video Embedded
+
+
+### Table
