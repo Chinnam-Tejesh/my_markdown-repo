@@ -265,7 +265,8 @@ Markdown supports Video embedded-ing (GitHub's feature) either avilable in the r
 - eg:
 - video from URL:
 below is video from Youtube
-  [![Alt Text](https://img.youtube.com/vi/4ZhITWHsaro/0.jpg)](https://www.youtube.com/watch?v=4ZhITWHsaro)
+
+[![Alt Text](https://img.youtube.com/vi/4ZhITWHsaro/0.jpg)](https://www.youtube.com/watch?v=4ZhITWHsaro)
 
 - video directly uploaded in GitHub editor
 
@@ -277,7 +278,8 @@ the above is the video, uploaded as GitHub user asset.
 ```markdown
 video from URL:
 below is video from Youtube
-  [![Alt Text](https://img.youtube.com/vi/4ZhITWHsaro/0.jpg)](https://www.youtube.com/watch?v=4ZhITWHsaro)
+
+[![Alt Text](https://img.youtube.com/vi/4ZhITWHsaro/0.jpg)](https://www.youtube.com/watch?v=4ZhITWHsaro)
 
 video directly uploaded in GitHub editor
 
