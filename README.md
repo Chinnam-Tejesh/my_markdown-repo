@@ -1,5 +1,5 @@
 # my_markdown-repo
-Documenting is an important part of programming (it be embedded, application or HDL), In this repo i am documenting markdown syntax to the best of my knowledge - and can be used as a quick reference lookup for GitHub's markdown rendering.
+Documenting is an important part of programming (it be embedded, application or HDL), In this repo i am documenting markdown syntax to the best of my knowledge - this will be very handy as a quick reference lookup for GitHub's markdown rendering.
 
 <br>
 
